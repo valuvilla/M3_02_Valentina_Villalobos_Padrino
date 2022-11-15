@@ -9,6 +9,7 @@ def error2(lista):
         return "Indice dentro del rango"
     except IndexError:
         return "Índice fuera del rango"
+    
 
 print(error2(lista))
 
