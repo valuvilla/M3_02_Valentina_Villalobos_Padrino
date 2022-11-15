@@ -26,6 +26,5 @@ def Error_1(x,y):
     except ZeroDivisionError:
         return "Dividir entre 0 no es posible" #al no poder dividir entre 0, controlamos el error mediante un "try" and "except", el cual evalua la division y corrige si se ha dividido por 0.
 
-
 if __name__=="__main__":
-    main
+    main()
