@@ -10,14 +10,14 @@ def error_2(lista):
     try:
         lista[10] #reccorremos la lista en busca del elemento de posicion 11
     
-    
     except IndexError: #En caso de que el indice dado se exceda a la longitud de la lista, hacemos uso de IndexError para controlar esta excepcion
         print("Índice fuera de rango") #Lanzara un mensaje que advirtirá al usuario del error
-        sys.exit()#Salimos del try and except
+        #Al incluir IndexError no tenemos porque preocuparnos por añadir el file=sys.stdrr pues estamos utilizando un comando que ya tiene almacena este tipo de error
 
-    
+
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
+        sys.exit()#Salimos del try and except
 
 #error_2([4, 7, 30, 23, 5])
 

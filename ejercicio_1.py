@@ -14,7 +14,9 @@ def error_1(x,y):
 
     except ZeroDivisionError: #Controlamos que el denominador no sea 0 mediante ZeroDivisionError que permite que el programa lo dectecte
         print("Dividir entre 0 no es posible") #cuando se divide entre cero, el programa lanzara este mensaje. Además de que se guardará el error mediante el file=sys.stderr
-        
+        #Al incluir ZeroDivisionError no tenemos porque preocuparnos por añadir el file=sys.stdrr pues estamos utilizando un comando que ya tiene almacena este tipo de error
+
+
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--OPERACION EVALUADA--"
         sys.exit() #Salimos del try and except
