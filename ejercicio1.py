@@ -17,7 +17,8 @@ paises["alemania"]
 resultado = "2" + 10
 """
 from ast import main
-
+x=7
+y=0
 def Error_1(x,y):
     try:
         x/y
@@ -27,4 +28,4 @@ def Error_1(x,y):
 
 
 if __name__=="__main__":
-    Error_1(7,0)
+    main
