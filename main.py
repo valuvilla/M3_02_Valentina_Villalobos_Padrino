@@ -1,8 +1,10 @@
 print("Ejercicio 1")
 import ejercicio1
 print("\n")
+"""
 print("Ejercicio 2")
 import ejercicio2
+"""
 """
 print("\n\n")
 
