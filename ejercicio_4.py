@@ -1,7 +1,7 @@
 from ast import main
 import sys
 
-print('\033[1m''\033[96m'"EJERCICIO 3" '\033[96m''\033[0m')
+print('\033[1m''\033[96m'"EJERCICIO 4" '\033[96m''\033[0m')
 
 def error_4(*args):
     resultado=0
