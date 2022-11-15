@@ -17,7 +17,7 @@ def error_2(lista):
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
 
-
+print(error_2(lista))
 
 if __name__=="__main__":
     main()
