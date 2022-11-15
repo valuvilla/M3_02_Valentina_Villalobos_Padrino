@@ -3,7 +3,8 @@ from ast import main
 import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
-
+x=7
+y=0
 def error_1(x,y):
     #Uso de try and except para controlar las excepciones
     
@@ -17,7 +18,6 @@ def error_1(x,y):
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--OPERACION EVALUADA--"
         sys.exit() #Salimos del try and except
-
 
 
 if __name__=="__main__":

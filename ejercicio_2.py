@@ -1,7 +1,7 @@
 
 import sys
 
-print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
+print('\033[1m''\033[96m'"EJERCICIO 2" '\033[96m''\033[0m')
 
 lista = [4, 7, 30, 23, 5]
 
@@ -22,4 +22,4 @@ def error_2(lista):
 #error_2([4, 7, 30, 23, 5])
 
 if __name__=="__main__":
-    error_2([4, 7, 30, 23, 5])
+    print(error_2([4, 7, 30, 23, 5]))

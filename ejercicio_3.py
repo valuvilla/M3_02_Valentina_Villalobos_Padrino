@@ -12,12 +12,12 @@ def error_3(paises):
 
     except KeyError:
         print("Clave-valor no encontrada")
-        sys.exit()
 
     finally:
         return "--BÚSQUEDA DE CLAVE-VALOR EVALUADA--"
+        sys.exit()
 
-print("\n\n")
+
 
 if __name__=="__main__":
-    main()
+    print(error_3(paises))
