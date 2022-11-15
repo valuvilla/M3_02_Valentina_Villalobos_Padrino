@@ -16,15 +16,19 @@ paises["alemania"]
 4) Localiza el error en el siguiente bloque de código. Crea una excepción para evitar que el programa se bloquee y además explica en un mensaje al usuario la causa y/o solución:
 resultado = "2" + 10
 """
-x=7
-y=0
-import sys
+from ast import main
 
-def Error_1(x,y):
+def Error_1():
+    x=7
+    y=0
     try:
         x/y
-        return "Operacion terminada"
+        return "Operacion introducida correctamente"
     except ZeroDivisionError:
-        return "La operacion no ha sido realizada"
-#El error en este primer código es que no podemos dividir un número entre 0 ya que no está definido. Al ejecutarlo nos saltará el error "ZeroDivisionError"; para solucinarlo utilizaremos "try" y "except". Dentro de la función "try" introduciremos aquello que queremos probar; si el resultado no se puede ejecutar directamente pasará al "except" donde, si el tipo de error, es el que nosotros hemos indicado se imprimirá por pantalla aquello que hay dentro del "except"
-print(Error_1(x,y))
+        return "Dividir entre 0 no es posible" #al no poder dividir entre 0, controlamos el error mediante un "try" and "except", el cual evalua la division y corrige si se ha dividido por 0.
+
+
+
+
+if __name__=="__main__":
+    main()
