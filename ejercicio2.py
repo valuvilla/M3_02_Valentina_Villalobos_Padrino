@@ -10,8 +10,6 @@ def error2(lista):
     except IndexError:
         return "Índice fuera del rango"
 
-print(error2(lista))
-
 
 if __name__=="__main__":
     main()

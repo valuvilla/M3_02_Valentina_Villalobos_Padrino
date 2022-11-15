@@ -18,9 +18,7 @@ resultado = "2" + 10
 """
 from ast import main
 
-def Error_1():
-    x=7
-    y=0
+def Error_1(x,y):
     try:
         x/y
         return "Operacion introducida correctamente"
@@ -28,7 +26,5 @@ def Error_1():
         return "Dividir entre 0 no es posible" #al no poder dividir entre 0, controlamos el error mediante un "try" and "except", el cual evalua la division y corrige si se ha dividido por 0.
 
 
-
-
 if __name__=="__main__":
-    main()
+    Error_1(7,0)
