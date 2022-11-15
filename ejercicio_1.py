@@ -1,5 +1,8 @@
 from ast import main
 import sys
+
+print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
+
 x=7
 y=0
 def error_1(x,y):
