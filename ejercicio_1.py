@@ -9,7 +9,9 @@ def error_1(x,y):
         print("Dividir entre 0 no es posible", file=sys.stderr)
         sys.exit()
     finally:
-        return "Operacion evaluada"
-print(error_1(x,y))
+        return "--OPERACION EVALUADA--"
+
+
+
 if __name__=="__main__":
     main()
