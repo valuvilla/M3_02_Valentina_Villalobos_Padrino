@@ -2,7 +2,7 @@ print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
 import ejercicio_1
 
 print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
-import ejercicio2
+import ejercicio_2
 
 """
 print("\n\n")
