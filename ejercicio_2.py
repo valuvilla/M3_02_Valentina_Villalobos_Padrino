@@ -1,4 +1,4 @@
-from ast import main
+
 import sys
 
 print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
@@ -20,7 +20,5 @@ def error_2(lista):
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
 
 
-print("\n\n")
-
 if __name__=="__main__":
-    main()
+    error_2([4, 7, 30, 23, 5])
