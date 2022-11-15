@@ -7,8 +7,9 @@ def error_1(x,y):
         codigo=x/y
     except ZeroDivisionError:
         print("Dividir entre 0 no es posible", file=sys.stderr)
+        sys.exit()
     finally:
         return "Operacion evaluada"
-
+print(error_1(x,y))
 if __name__=="__main__":
     main()
