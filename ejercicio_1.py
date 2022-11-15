@@ -1,4 +1,5 @@
 
+from ast import main
 import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
@@ -18,5 +19,6 @@ def error_1(x,y):
         sys.exit() #Salimos del try and except
 
 
+
 if __name__=="__main__":
-   error_1(7,0)
+   print(error_1(7,0))

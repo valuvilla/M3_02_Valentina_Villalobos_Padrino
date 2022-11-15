@@ -19,6 +19,7 @@ def error_2(lista):
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
 
+#error_2([4, 7, 30, 23, 5])
 
 if __name__=="__main__":
     error_2([4, 7, 30, 23, 5])
