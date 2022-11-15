@@ -14,9 +14,9 @@ def error_3(paises):
         sys.exit()
 
     finally:
-        return "BÚSQUEDA DE CLAVE-VALOR EVALUADA"
+        return "--BÚSQUEDA DE CLAVE-VALOR EVALUADA--"
 
 
-print(error_3(paises))
+
 if __name__=="__main__":
     main()
