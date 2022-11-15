@@ -21,6 +21,7 @@ def error_1(x,y):
     finally: #No importa el resultado de la evaluacion, el programa siempre lanzará este mensaje
         return "--OPERACION EVALUADA--"
 
+print("\n\n")
 
 print(error_1(x,y))
 if __name__=="__main__":

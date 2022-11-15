@@ -17,7 +17,7 @@ def error_3(paises):
     finally:
         return "--BÚSQUEDA DE CLAVE-VALOR EVALUADA--"
 
-print(error_3(paises))
+print("\n\n")
 
 if __name__=="__main__":
     main()

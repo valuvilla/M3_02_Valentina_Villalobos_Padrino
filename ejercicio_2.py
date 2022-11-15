@@ -20,7 +20,7 @@ def error_2(lista):
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
 
 
-print(error_2(lista))
+print("\n\n")
 
 if __name__=="__main__":
     main()
