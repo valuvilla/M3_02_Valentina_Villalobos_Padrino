@@ -1,6 +1,8 @@
 from ast import main
 import sys
 
+print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
+
 lista = [4, 7, 30, 23, 5]
 
 def error_2(lista):
@@ -10,7 +12,7 @@ def error_2(lista):
     
     
     except IndexError: #En caso de que el indice dado se exceda a la longitud de la lista, hacemos uso de IndexError para controlar esta excepcion
-        print("Índice fuera de rango",file=sys.stderr) #Lanzara un mensaje que advirtirá al usuario del error, ademas de almacenar el error.
+        print("Índice fuera de rango") #Lanzara un mensaje que advirtirá al usuario del error
         sys.exit()#Salimos del try and except
 
     
@@ -18,6 +20,7 @@ def error_2(lista):
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
 
 
+print(error_2(lista))
 
 if __name__=="__main__":
     main()

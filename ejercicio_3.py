@@ -1,8 +1,9 @@
 from ast import main
 import sys
 
-paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
+print('\033[1m''\033[32m'"EJERCICIO 3" '\033[32m''\033[0m')
 
+paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
 
 def error_3(paises):
 
@@ -16,7 +17,7 @@ def error_3(paises):
     finally:
         return "--BÚSQUEDA DE CLAVE-VALOR EVALUADA--"
 
-
+print(error_3(paises))
 
 if __name__=="__main__":
     main()

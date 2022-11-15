@@ -1,10 +1,8 @@
-print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
+
 import ejercicio_1
 
-print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
 import ejercicio_2
 
-print('\033[1m''\033[32m'"EJERCICIO 3" '\033[32m''\033[0m')
 import ejercicio_3
 """
 print("\n\n")
@@ -77,6 +75,5 @@ num2=10
 try:
   resultado="2" + 10
 except TypeError:
-  print("No se pudo realizar la operación debido a 
-  que los tipos de datos son incorrectos")
+  print("No se pudo realizar la operación debido a que los tipos de datos son incorrectos")
   """
