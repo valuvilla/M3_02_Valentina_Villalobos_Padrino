@@ -4,6 +4,8 @@ import ejercicio_1
 print('\033[1m''\033[33m'"EJERCICIO 2" '\033[33m''\033[0m')
 import ejercicio_2
 
+print('\033[1m''\033[32m'"EJERCICIO 3" '\033[32m''\033[0m')
+import ejercicio_3
 """
 print("\n\n")
 
@@ -59,7 +61,15 @@ print("\n\n")
 #  EJERCICIO 4
 
   # resultado= "2" + 10
-  # El error en este bloque de código es que estamos tratando de sumar una cadena de texto con un número entero. Cuando ponemos entre comillas un número, el programa lo detecta como si fuera un "string" y no podemos sumarlo. Para arreglarlo haremos lo mismo que en los tres códigos anteriores.
+  # El error en este 
+  # bloque de código es que 
+  # estamos tratando de sumar 
+  # una cadena de texto con un número 
+  # entero. Cuando ponemos entre comillas un 
+  # número, el programa lo detecta como si fuera 
+  # un "string" y no podemos sumarlo. 
+  # Para arreglarlo haremos lo mismo que 
+  # en los tres códigos anteriores.
 
 num1= "2"
 num2=10
@@ -67,5 +77,6 @@ num2=10
 try:
   resultado="2" + 10
 except TypeError:
-  print("No se pudo realizar la operación debido a que los tipos de datos son incorrectos")
+  print("No se pudo realizar la operación debido a 
+  que los tipos de datos son incorrectos")
   """
