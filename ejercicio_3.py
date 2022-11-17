@@ -22,4 +22,4 @@ def error_3(paises):
 
 
 if __name__=="__main__":
-    print(error_3(paises))
+    main()
