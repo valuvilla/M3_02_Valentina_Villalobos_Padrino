@@ -22,5 +22,8 @@ def error_1(x,y):
         sys.exit() #Salimos del try and except
 
 
+#Experimentamos con en ejemplo
+print(error_1(7,0))
+
 if __name__=="__main__":
-   print(error_1(7,0))
+   main()

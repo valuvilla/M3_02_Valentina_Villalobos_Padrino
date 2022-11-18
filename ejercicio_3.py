@@ -20,6 +20,8 @@ def error_3(paises):
         sys.exit()#Salimos del try and except
 
 
+#Experimentamos con en ejemplo
+print(error_3(paises))
 
 if __name__=="__main__":
     main()

@@ -1,4 +1,5 @@
 
+from ast import main
 import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 2" '\033[96m''\033[0m')
@@ -19,7 +20,8 @@ def error_2(lista):
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
         sys.exit()#Salimos del try and except
 
-#error_2([4, 7, 30, 23, 5])
+#Experimentamos con en ejemplo
+print(error_2([4, 7, 30, 23, 5]))
 
 if __name__=="__main__":
-    print(error_2([4, 7, 30, 23, 5]))
+    main()
