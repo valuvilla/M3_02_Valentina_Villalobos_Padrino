@@ -1,7 +1,7 @@
 from ast import main
 import sys
 
-print('\033[1m''\033[32m'"EJERCICIO 3" '\033[32m''\033[0m')
+print('\033[1m''\033[96m'"EJERCICIO 3" '\033[96m''\033[0m')
 
 paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
 
