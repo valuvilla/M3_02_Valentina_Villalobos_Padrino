@@ -3,8 +3,7 @@ from ast import main
 import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 1" '\033[96m''\033[0m')
-x=7
-y=0
+
 def error_1(x,y):
     #Uso de try and except para controlar las excepciones
     
@@ -22,8 +21,9 @@ def error_1(x,y):
         sys.exit() #Salimos del try and except
 
 
-#Experimentamos con en ejemplo
+#comprobamos la funcion funciona
 print(error_1(7,0))
 
+#importamos a main
 if __name__=="__main__":
    main()

@@ -20,8 +20,9 @@ def error_3(paises):
         sys.exit()#Salimos del try and except
 
 
-#Experimentamos con en ejemplo
+#Experimentamos
 print(error_3(paises))
 
+#importamos a main
 if __name__=="__main__":
     main()

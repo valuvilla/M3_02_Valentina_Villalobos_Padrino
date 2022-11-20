@@ -3,8 +3,10 @@ import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 4" '\033[96m''\033[0m')
 
-def error_4(*args):
-    resultado=0 #inicamos el contador a 0
+def error_4(*args): #Hacemos uso de *args para poder incluir cualquier cuan cantidad de elementos que deseamos. Aunque para el ejercicio solo hacen falta 2, esta funcion ya es capaz de calcular la suma de muchos elementos sin tener una restriccion de elemento. Esto es solo es posible por esta "special syntax"
+    
+    resultado=0 #inicamos el contador a 0 ya que queremos evaluar una suma
+    
     for numero in args: #iniciamos un bucle para que se suma término a término
         #incluimos el try and except para capturar el error
         try:
@@ -22,7 +24,8 @@ def error_4(*args):
 #Experimentamos con en ejemplo
 print(error_4("2",10))
 
+#importamos a main
 if __name__=="__main__":
-    print(error_4("2",10))
+    main()
 
 

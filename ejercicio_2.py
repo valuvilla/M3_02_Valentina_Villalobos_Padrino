@@ -4,7 +4,7 @@ import sys
 
 print('\033[1m''\033[96m'"EJERCICIO 2" '\033[96m''\033[0m')
 
-lista = [4, 7, 30, 23, 5]
+lista=[4, 7, 30, 23, 5]
 
 def error_2(lista):
     #Uso de try and except para controlar las excepciones
@@ -20,8 +20,9 @@ def error_2(lista):
         return "--BÚSQUEDA DE ÍNDICE EVALUADA--"
         sys.exit()#Salimos del try and except
 
-#Experimentamos con en ejemplo
+#Experimentamos
 print(error_2(lista))
 
+#importamos a main
 if __name__=="__main__":
     main()
