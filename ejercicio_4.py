@@ -19,6 +19,9 @@ def error_4(*args):
             return "--OPERACION EVALUADA--"
             sys.exit()#Salimos del try and except
 
+#Experimentamos con en ejemplo
+print(error_4("2",10))
+
 if __name__=="__main__":
     print(error_4("2",10))
 
