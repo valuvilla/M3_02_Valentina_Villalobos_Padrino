@@ -21,7 +21,7 @@ def error_2(lista):
         sys.exit()#Salimos del try and except
 
 #Experimentamos con en ejemplo
-print(error_2([4, 7, 30, 23, 5]))
+
 
 if __name__=="__main__":
     main()

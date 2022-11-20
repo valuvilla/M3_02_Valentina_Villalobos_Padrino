@@ -26,4 +26,4 @@ def error_1(x,y):
 
 
 if __name__=="__main__":
-   main()
+   print(error_4("2",10))
